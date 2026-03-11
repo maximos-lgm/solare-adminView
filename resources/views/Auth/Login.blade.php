@@ -40,7 +40,7 @@
                     <div>
                         <label for="email" class="block mb-2 text-sm font-medium text-white">CORRE</label>
                         <input type="email" name="email" id="email"
-                            class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                            class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                             placeholder="name@company.com" required>
                     </div>
 
@@ -48,21 +48,21 @@
                         <label for="password" class="block mb-2 text-sm font-medium text-white">CONTRASEÑA</label>
                         <input type="password" name="password" id="password"
                             placeholder="••••••••"
-                            class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                            class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                             required>
                     </div>
 
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2">
                             {{-- <input id="remember" type="checkbox"
-                                class="w-4 h-4 border border-gray-600 rounded bg-gray-700 focus:ring-blue-500"> --}}
+                                class="w-4 h-4 border border-gray-600 rounded bg-gray-700 focus:ring-sage-green"> --}}
                             {{-- <label for="remember" class="text-sm text-gray-300">Remember me</label> --}}
                         </div>
                         {{-- <a href="#" class="text-sm text-blue-400 hover:underline">Forgot password?</a> --}}
                     </div>
 
                     <button type="submit"
-                        class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center transition-colors">
+                        class="w-full text-white bg-clay-brown hover:bg-dark-moss focus:ring-4 focus:ring-sage-green font-medium rounded-lg text-sm px-5 py-3 text-center transition-colors">
                         ENTRAR
                     </button>
 

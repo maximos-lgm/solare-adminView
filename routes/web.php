@@ -13,3 +13,6 @@ Route::get('/register', function () { return view('Auth.Registro');});
  Route::get('/', function () { return view('paginas.Dashboard');});
 
 Route::get('/dashboard', function () {return view('paginas.Dashboard');});
+
+
+Route::get('/Ventas', function () {return view('paginas.Ventas');});

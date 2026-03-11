@@ -4,3 +4,10 @@
 @plugin "flowbite/plugin";
 
 @source "../../node_modules/flowbite";
+
+@theme {
+  --color-sage-green: #798273;
+  --color-dark-moss: #50594e;
+  --color-clay-brown: #958174;
+  --color-sand-beige: #edebe8;
+}

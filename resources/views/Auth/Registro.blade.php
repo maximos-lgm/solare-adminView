@@ -34,13 +34,13 @@
                         <div>
                             <label class="block mb-2 text-sm font-medium text-white">NOMBRE</label>
                             <input type="text" name="nombre"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                                 placeholder="Juan" required>
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-white">APELLIDO PATERNO</label>
                             <input type="text" name="apellido_paterno"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                                 placeholder="Pérez" required>
                         </div>
                     </div>
@@ -50,13 +50,13 @@
                         <div>
                             <label class="block mb-2 text-sm font-medium text-white">APELLIDO MATERNO</label>
                             <input type="text" name="apellido_materno"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                                 placeholder="García" required>
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-white">CORREO</label>
                             <input type="email" name="email"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                                 placeholder="name@company.com" required>
                         </div>
                     </div>
@@ -67,13 +67,13 @@
                             <label class="block mb-2 text-sm font-medium text-white">CONTRASEÑA</label>
                             <input type="password" name="password"
                                 placeholder="••••••••"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 placeholder-gray-400 focus:ring-sage-green focus:border-sage-green"
                                 required>
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-white">ROL</label>
                             <select name="rol"
-                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 focus:ring-blue-500 focus:border-blue-500" required>
+                                class="bg-gray-700 border border-gray-600 text-white rounded-lg block w-full p-3 focus:ring-sage-green focus:border-sage-green" required>
                                 <option value="" disabled selected>Selecciona un rol</option>
                                 <option value="admin">Administrador</option>
                                 <option value="vendedor">Vendedor</option>
@@ -84,7 +84,7 @@
 
                     {{-- Botón --}}
                     <button type="submit"
-                        class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center transition-colors mt-2">
+                        class="w-full text-white bg-clay-brown hover:bg-dark-moss focus:ring-4 focus:ring-sage-green font-medium rounded-lg text-sm px-5 py-3 text-center transition-colors mt-2">
                         REGISTRAR
                     </button>
 
